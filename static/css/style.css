@@ -1,0 +1,53 @@
+
+
+
+.noshadow{
+  -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+nav ul a{
+  color:#262626;
+  font-family: avernir-heavy;
+}
+.nav-wrapper.container{
+  width: 100%;
+  margin-top:65px;
+}
+.nav-wrapper .brand-logo img{
+  width: 220px;
+  height: 60px;
+}
+.content{
+  width:1000px;
+  margin-top:100px;
+
+}
+.content .col{
+  padding:0px;
+}
+.content .grayblack{
+  background-color: #343434;
+  height: 326px;
+}
+
+.content .yellowpastel{
+  background-color: #fec63d;
+  height: 326px;
+}
+.content .bluelight{
+  background-color: #67eef3;
+  height: 326px;
+}
+67eef3
+/*
+  FOR CUSTOM FONT-FACE
+*/
+@font-face{
+  font-family: avernir-heavy;
+  src:url(/static/font/AvenirLTStd-Heavy.otf);
+}
+
+/*
+  FOR CUSTOM FONT-FACE
+*/
