@@ -10,9 +10,15 @@ nav ul a{
   color:#262626;
   font-family: avernir-heavy;
 }
+nav ul li:hover{
+  background-color: #ffffff;
+  background-image: url("../images/icon_3_arrow.png");
+  background-position:left 15px bottom 10px;
+  background-repeat:no-repeat;
+}
 .nav-wrapper.container{
   width: 100%;
-  margin-top:65px;
+  margin-top:40px;
 }
 .nav-wrapper .brand-logo img{
   width: 220px;
@@ -20,34 +26,148 @@ nav ul a{
 }
 .content{
   width:1000px;
-  margin-top:100px;
+  margin-top:80px;
 
 }
 .content .col{
   padding:0px;
 }
 .content .grayblack{
-  background-color: #343434;
+  background-image: url("../images/image_column_1.png");
   height: 326px;
+  width: 300px;
+  margin-top: 200px;
+}
+.grayblack p{
+  font-family: avernir-heavy;
+  color: #ffffff;
+
+}
+.grayblack .title{
+  margin-top:50px;
+
+}
+.grayblack .icon_arrow{
+  display: block;
+  margin-bottom:35px;
+  text-align:center;
+}
+.grayblack .paragraph{
+  width: 230px;
+  margin: 0px auto;
+  font-size: 13pt;
+  font-family: avernir-roman;
+}
+.content .yellowpastel{
+  background-image: url("../images/image_column_2.png");
+  margin-top:-100px;
+  height: 326px;
+}
+.yellowpastel .city{
+  font-family: avernir-heavy;
+  color:#020202;
+  margin-top:140px;
+  margin-bottom: 0px;
+
+}
+.yellowpastel .country{
+  font-family: avernir-light;
+  font-size:15pt;
+  color:#020202;
+  margin-top:0px;
+
 }
 
-.content .yellowpastel{
-  background-color: #fec63d;
-  height: 326px;
+.column_3 .row{
+  margin:0px;
 }
-.content .bluelight{
-  background-color: #67eef3;
-  height: 326px;
+
+.row .graylight{
+  display: block;
+  background-image: url("../images/image_content_grey.png");
+  background-repeat: no-repeat;
+  background-size: 410px 100px;
+  height: 100px;
+  margin-left: -100px;
 }
-67eef3
+.graylight h5{
+  margin: 0px;
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  font-family: museo500-regular;
+  line-height: 100px;
+}
+.row.bluelight{
+  margin-left:200px;
+  display: block;
+  background-image: url("../images/image_content_blue.png");
+  background-repeat: no-repeat;
+  background-size: 410px 226px;
+  height: 226px;
+}
+.bluelight .avatar img{
+  margin-top: 25px;
+  margin-left:40px;
+}
+.bluelight .name{
+  color:#010101;
+  font-family: avernir-medium;
+  margin-top:30px;
+  margin-bottom: 5px;
+}
+.bluelight .title{
+  margin-top: 5px;
+  color:#ffffff;
+  font-family: avernir-medium;
+}
+
+.bluelight .description{
+  color:#ffffff;
+  font-family: avernir-heavy;
+}
+.scroll_down{
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  height: 30px;
+}
+.scroll_down p{
+  vertical-align: middle;
+  color: #939393;
+  font-family: avernir-heavy;
+  display: inline;
+}
+.scroll_down img{
+  display: inline;
+  margin-left:20px;
+  vertical-align: middle;
+}
 /*
   FOR CUSTOM FONT-FACE
 */
 @font-face{
   font-family: avernir-heavy;
-  src:url(/static/font/AvenirLTStd-Heavy.otf);
+  src:url(../font/AvenirLTStd-Heavy.otf);
 }
-
+@font-face{
+  font-family: avernir-roman;
+  src:url(../font/AvenirLTStd-Roman.otf);
+}
+@font-face{
+  font-family: avernir-light;
+  src:url(../font/AvenirLTStd-Light.otf);
+}
+@font-face{
+  font-family: avernir-medium;
+  src:url(../font/AvenirLTStd-Medium.otf);
+}
+@font-face{
+  font-family: museo500-regular;
+  src:url(../font/Mueso500-Regular.otf);
+}
+f
 /*
   FOR CUSTOM FONT-FACE
 */
